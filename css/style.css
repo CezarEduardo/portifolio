@@ -1,0 +1,47 @@
+.flex-box {
+    margin-top: -2cm;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  .content-box {
+    color: rgb(26, 100, 84);
+    text-align: center;
+    width: 50cm;
+    margin-top: 200px;
+    font-size: 1cm;
+  }
+
+
+.progresso{
+    
+    animation: linear;
+    border: 3px solid #7a7272;
+    border-top-color: #019973;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    animation: animacao 2s infinite;
+    margin-left: 650px;
+    margin-top: 2cm;
+    
+}
+
+@keyframes animacao{
+    to{
+        transform: rotate(1turn);
+    }
+}
+
+footer{
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body{
+    background: #e0e7e6;
+}
